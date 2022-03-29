@@ -1,4 +1,4 @@
-@extends ('crm/layout')
+@extends ('layout')
 
 @section('page_title')
     Sign up

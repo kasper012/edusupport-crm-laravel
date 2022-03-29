@@ -15,32 +15,39 @@ use App\Http\Controllers\MainController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('login');
 });
 
 // Route::get('/', [MainController::class, 'home']);
 
-Route::get('/about', function () {
-    return view('about');
+// Route::get('/about', function () {
+//     return view('about');
+// });
+
+Route::get('login', function () {
+    return view('login');
 });
 
-Route::get('/crm/login-in', function () {
-    return view('crm/login');
+Route::get('signup', function () {
+    return view('signup');
 });
 
-Route::get('/crm/signup', function () {
-    return view('crm/signup');
-});
-Route::get('/crm/sales', function () {
-    return view('crm/sales-view');
+
+Route::get('sales', function () {
+    return view('sales-view');
 });
 
-Route::get('/crm/experts', function () {
-    return view('crm/expert-view');
+Route::get('sales-add', function () {
+    return view('sales-create-form');
 });
 
-Route::get('/crm/review', function () {
-    return view('crm/expert');
+
+Route::get('experts', function () {
+    return view('expert-view');
+});
+
+Route::get('review', function () {
+    return view('expert');
 });
 
 Route::post('/crm/review/check', [MainController::class, 'review_check']);
