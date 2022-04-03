@@ -39,7 +39,7 @@ Route::get('sales', function () {
 
 Route::get('sales-add', function () {
     return view('sales-create-form');
-});
+})->name('sales-add');
 
 
 Route::get('experts', function () {
