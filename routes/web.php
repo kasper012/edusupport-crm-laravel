@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ContactController;
+use App\Models\Contact;
+use App\Http\Requests\ContactRequest;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,30 +19,12 @@ use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('login');
-});
-
-// Route::get('/', [MainController::class, 'home']);
-
-// Route::get('/about', function () {
-//     return view('about');
-// });
-
-// Route::get('login', function () {
-//     return view('login');
-// });
-
-// Route::get('signup', function () {
-//     return view('signup');
-// });
-
-Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact-submit');
+})->name('login');
 
 
+Route::post('sales', [ContactController::class, 'submit'])->name('sales-submit');
 
-Route::get('sales', function () {
-    return view('sales-view');
-});
-
+Route::get('sales', [ContactController::class, 'allData'])->name('sales-view');
 
 
 Route::get('experts', function () {
@@ -51,4 +35,3 @@ Route::get('review', function () {
     return view('expert');
 });
 
-Route::post('/crm/review/check', [MainController::class, 'review_check']);

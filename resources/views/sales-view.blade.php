@@ -12,7 +12,7 @@
                 </h3>
                 <div class="col-2 mb-5">
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary py-3 px-3" data-toggle="modal" data-target="#exampleModalCenter">
+                    <button type="button" class="btn btn-primary py-2 px-3" data-toggle="modal" data-target="#exampleModalCenter">
                         Yeni müştəri əlavə etmək
                     </button>
                     <!-- Modal -->
@@ -28,7 +28,7 @@
                                     </h2>
                                     <hr>
                                     <div class="col-md-12">
-                                        <form action="{{ route('contact-submit')}}" method="POST">
+                                        <form action="{{ route('sales-submit')}}" method="POST">
                                             @csrf
                                             <div class="form-row">
                                                 <div class="form-group col-md-12">
@@ -254,80 +254,24 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            @foreach($data as $el)
                                             <tr>
-                                                <td>Otto Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
+                                                <td>{{ $el->name }}</td>
+                                                <td>{{ $el->phone }}</td>
+                                                <td>{{ $el->email }}</td>
+                                                <td>{{ $el->country }}</td>
+                                                <td>{{ $el->school }}</td>
+                                                <td>{{ $el->speciality }}</td>
+                                                <td>{{ $el->degree }}</td>
+                                                <td>{{ $el->graduate_year }}</td>
+                                                <td>{{ $el->gpa }}</td>
+                                                <td>{{ $el->english_level }}</td>
+                                                <td>{{ $el->deutshche_level }}</td>
                                             </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
+                                            @endforeach
                                             
                                         </tbody>
+                                    </table>
                                     </table>
                                 </div>
                                 <div class="tab-pane fade" id="list-settings" role="tabpanel"
@@ -352,78 +296,21 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            @foreach($data as $el)
                                             <tr>
-                                                <td>Otto Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
+                                                <td>{{ $el->name }}</td>
+                                                <td>{{ $el->phone }}</td>
+                                                <td>{{ $el->email }}</td>
+                                                <td>{{ $el->country }}</td>
+                                                <td>{{ $el->school }}</td>
+                                                <td>{{ $el->speciality }}</td>
+                                                <td>{{ $el->degree }}</td>
+                                                <td>{{ $el->graduate_year }}</td>
+                                                <td>{{ $el->gpa }}</td>
+                                                <td>{{ $el->english_level }}</td>
+                                                <td>{{ $el->deutshche_level }}</td>
                                             </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
+                                            @endforeach
                                             
                                         </tbody>
                                     </table>
@@ -451,80 +338,24 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            @foreach($data as $el)
                                             <tr>
-                                                <td>Otto Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
+                                                <td>{{ $el->name }}</td>
+                                                <td>{{ $el->phone }}</td>
+                                                <td>{{ $el->email }}</td>
+                                                <td>{{ $el->country }}</td>
+                                                <td>{{ $el->school }}</td>
+                                                <td>{{ $el->speciality }}</td>
+                                                <td>{{ $el->degree }}</td>
+                                                <td>{{ $el->graduate_year }}</td>
+                                                <td>{{ $el->gpa }}</td>
+                                                <td>{{ $el->english_level }}</td>
+                                                <td>{{ $el->deutshche_level }}</td>
                                             </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
+                                            @endforeach
                                             
                                         </tbody>
+                                    </table>
                                     </table>
                                 </div>
                                 <div class="tab-pane fade" id="list-messages" role="tabpanel"
@@ -549,80 +380,24 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            @foreach($data as $el)
                                             <tr>
-                                                <td>Otto Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
+                                                <td>{{ $el->name }}</td>
+                                                <td>{{ $el->phone }}</td>
+                                                <td>{{ $el->email }}</td>
+                                                <td>{{ $el->country }}</td>
+                                                <td>{{ $el->school }}</td>
+                                                <td>{{ $el->speciality }}</td>
+                                                <td>{{ $el->degree }}</td>
+                                                <td>{{ $el->graduate_year }}</td>
+                                                <td>{{ $el->gpa }}</td>
+                                                <td>{{ $el->english_level }}</td>
+                                                <td>{{ $el->deutshche_level }}</td>
                                             </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                                <td>@twitter</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>@twitter</td>
-                                            </tr>
+                                            @endforeach
                                             
                                         </tbody>
+                                    </table>
                                     </table>
                                 </div>
 
