@@ -16,6 +16,7 @@ class ContactController extends Controller
         $contact->phone=$phone=$req->input('phone');
         $contact->email=$email=$req->input('email');
         $contact->country=$country=$req->input('country');
+        $contact->school=$school=$req->input('graduate');
         $contact->speciality=$speciality=$req->input('speciality');
         $contact->degree=$degree=$req->input('degree');
         $contact->graduate_year=$graduate_year=$req->input('graduate_year');
