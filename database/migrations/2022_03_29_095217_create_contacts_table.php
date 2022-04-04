@@ -18,7 +18,8 @@ class CreateContactsTable extends Migration
             $table->text('name'); 
             $table->text('phone'); 
             $table->text('email'); 
-            $table->text('country'); 
+            $table->text('country');         
+            $table->text('school');         
             $table->text('speciality');
             $table->text('degree'); 
             $table->text('graduate_year'); 
