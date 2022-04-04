@@ -12,7 +12,7 @@
                 </h3>
                 <div class="col-2 mb-5">
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary py-2 px-3" data-toggle="modal" data-target="#exampleModalCenter">
+                    <button type="button" class="btn btn-success py-2 px-3" data-toggle="modal" data-target="#exampleModalCenter">
                         Yeni müştəri əlavə etmək
                     </button>
                     <!-- Modal -->
@@ -215,7 +215,7 @@
                         </div>
                     </div>
             </div>
-                <div class="col-12">
+                <div class="col-12 mt-5">
                     <div class="row">
                         <div class="col-12">
                             <div class="list-group flex-row" id="list-tab" role="tablist">
