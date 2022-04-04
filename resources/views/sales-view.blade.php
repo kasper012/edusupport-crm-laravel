@@ -46,8 +46,8 @@
                                                     <input type="text" class="form-control" id="country" name="country" placeholder="Hansı ölkədə təhsil almaq istəyir">
                                                 </div>
                                                 <div class="form-group col-mdtext-12 d-flex flex-start">
-                                                    <label for="graduate" >Oxuduğu və ya bitirdiyi ali məktəb</label>
-                                                    <select id="graduate" name="graduate" class="form-control">
+                                                    <label for="school">Oxuduğu və ya bitirdiyi ali məktəb</label>
+                                                    <select id="school" name="school" class="form-control">
                                                         <option value="20">20</option>
                                                         <option value="20">23</option>
                                                         <option value="26">26</option>
