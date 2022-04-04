@@ -300,160 +300,160 @@
                                                     <div class="form-group col-mdtext-12 d-flex flex-start">
                                                         <label for="graduate" >Oxuduğu və ya bitirdiyi ali məktəb</label>
                                                         <select id="graduate" name="graduate" class="form-control">
-                                                            <option value="shchool_20">20</option>
-                                                            <option value="shchool_23">23</option>
-                                                            <option value="shchool_26">26</option>
-                                                            <option value="shchool_176">176</option>
-                                                            <option value="shchool_189">189</option>
+                                                            <option value="20">20</option>
+                                                            <option value="20">23</option>
+                                                            <option value="26">26</option>
+                                                            <option value="176">176</option>
+                                                            <option value="189">189</option>
                                                             <option value="220">220</option>
-                                                            <option value="shchool_248">248</option>
-                                                            <option value="shchool_264">264</option>
-                                                            <option value="durkham">Durham uni</option>
-                                                            <option value="abc">ABC British College</option>
-                                                            <option value="ada">ADA</option>
-                                                            <option value="adnsu">ADNSU</option>
-                                                            <option value="adu">ADU</option>
-                                                            <option value="adu_second">ADU (?)</option>
-                                                            <option value="akdeniz">Akdeniz</option>
-                                                            <option value="apu">APU</option>
-                                                            <option value="aqrar">Aqrar</option>
-                                                            <option value="architecture">Architecture University</option>
-                                                            <option value="atibbu">AtibbU</option>
-                                                            <option value="atilim">Atilim Uni</option>
-                                                            <option value="atu">ATU</option>
-                                                            <option value="azi">AZİ</option>
-                                                            <option value="aztu">AZTU</option>
-                                                            <option value="baki_modern_tk">Baki Modern Təhsil Kompleksi</option>
-                                                            <option value="european_lyceum">Baku European Lyceum</option>
-                                                            <option value="baku_frenchschool">Baku French School</option>
-                                                            <option value="turkish_lyceum">Baku Turkish Lyceum</option>
-                                                            <option value="banm">BANM</option>
-                                                            <option value="bayreuth">Bayreuth uni</option>
-                                                            <option value="bbu">BBU</option>
-                                                            <option value="bdu">BDU</option>
-                                                            <option value="belarus_fhn">Belarus FHN</option>
-                                                            <option value="bmu">BMU</option>
-                                                            <option value="british_school">British school Baku</option>
-                                                            <option value="bsu">BSU</option>
-                                                            <option value="dia">DIA</option>
-                                                            <option value="diller">Dillər unisi</option>
-                                                            <option value="eur_az_school">European Azerbaijan School</option>
-                                                            <option value="idman">İdman</option>
-                                                            <option value="iqtisad">İqtisad Uni</option>
-                                                            <option value="kimya_biologiya">Kimya Biologiya təmayüllü</option>
-                                                            <option value="respublika_liseyi">Respublika liseyi</option>
-                                                            <option value="kollec">Kollec təhsili</option>
-                                                            <option value="kooperasiya">Kooperasiya</option>
-                                                            <option value="memarliq">Memarliq Inshaat</option>
-                                                            <option value="tu_graz">TU Graz</option>
-                                                            <option value="mingachevir">Mingecevir Uni</option>
-                                                            <option value="moskva_academy">Moskva Akademiyası/option>
-                                                            <option value="music_academy">Musiqi akademiyası</option>
-                                                            <option value="aviation">National Aviation Academy</option>
-                                                            <option value="naxchivan">Naxçıvan Uni</option>
-                                                            <option value="odlar_yurdu">Odlar Yurdu</option>
-                                                            <option value="qerb_mektebi">Qərb məktəbi</option>
-                                                            <option value="ressamliq">Rəssamlıq Uni</option>
-                                                            <option value="sechenov">Seçenov Adına Tibb Universiteti</option>
-                                                            <option value="sosiologiya">Sosiologiya</option>
-                                                            <option value="shushka_humanitar_kollege">Şuşa Humanitar Kolleci</option>
-                                                            <option value="technical_uni">Technical University</option>
-                                                            <option value="tu_clausthat">TU Clausthat</option>
-                                                            <option value="turizm">Turizm</option>
-                                                            <option value="ufaz">UFAZ</option>
-                                                            <option value="unec">UNEC</option>
-                                                            <option value="art_uni">University of Art</option>
-                                                            <option value="birmingham_uni">University of Birmingham</option>
-                                                            <option value="khazar">Xazar</option>
+                                                            <option value="248">248</option>
+                                                            <option value="264">264</option>
+                                                            <option value="Durham uni">Durham uni</option>
+                                                            <option value="ABC British College">ABC British College</option>
+                                                            <option value="ADA">ADA</option>
+                                                            <option value="ADNSU">ADNSU</option>
+                                                            <option value="ADU">ADU</option>
+                                                            <option value="ADU (?)">ADU (?)</option>
+                                                            <option value="Akdeniz">Akdeniz</option>
+                                                            <option value="APU">APU</option>
+                                                            <option value="Aqrar">Aqrar</option>
+                                                            <option value="Architecture University">Architecture University</option>
+                                                            <option value="AtibbU">AtibbU</option>
+                                                            <option value="Atilim Uni">Atilim Uni</option>
+                                                            <option value="ATU">ATU</option>
+                                                            <option value="AZİ">AZİ</option>
+                                                            <option value="AZTU">AZTU</option>
+                                                            <option value="Baki Modern Təhsil Kompleksi">Baki Modern Təhsil Kompleksi</option>
+                                                            <option value="Baku European Lyceum">Baku European Lyceum</option>
+                                                            <option value="Baku French School">Baku French School</option>
+                                                            <option value="Baku Turkish Lyceum">Baku Turkish Lyceum</option>
+                                                            <option value="BANM">BANM</option>
+                                                            <option value="Bayreuth uni">Bayreuth uni</option>
+                                                            <option value="BBU">BBU</option>
+                                                            <option value="BDU">BDU</option>
+                                                            <option value="Belarus FHN">Belarus FHN</option>
+                                                            <option value="BMU">BMU</option>
+                                                            <option value="British school Baku">British school Baku</option>
+                                                            <option value="BSU">BSU</option>
+                                                            <option value="DIA">DIA</option>
+                                                            <option value="Dillər unisi">Dillər unisi</option>
+                                                            <option value="European Azerbaijan School">European Azerbaijan School</option>
+                                                            <option value="İdman">İdman</option>
+                                                            <option value="İqtisad Uni">İqtisad Uni</option>
+                                                            <option value="Kimya Biologiya təmayüllü">Kimya Biologiya təmayüllü</option>
+                                                            <option value="Respublika liseyi">Respublika liseyi</option>
+                                                            <option value="Kollec təhsili">Kollec təhsili</option>
+                                                            <option value="Kooperasiya">Kooperasiya</option>
+                                                            <option value="Memarliq Inshaat">Memarliq Inshaat</option>
+                                                            <option value="TU Graz">TU Graz</option>
+                                                            <option value="Mingecevir Uni">Mingecevir Uni</option>
+                                                            <option value="Moskva Akademiyası">Moskva Akademiyası</option>
+                                                            <option value="Musiqi akademiyası">Musiqi akademiyası</option>
+                                                            <option value="National Aviation Academy">National Aviation Academy</option>
+                                                            <option value="Naxçıvan Uni">Naxçıvan Uni</option>
+                                                            <option value="Odlar Yurdu">Odlar Yurdu</option>
+                                                            <option value="Qərb məktəbi">Qərb məktəbi</option>
+                                                            <option value="Rəssamlıq Uni">Rəssamlıq Uni</option>
+                                                            <option value="Seçenov Adına Tibb Universiteti">Seçenov Adına Tibb Universiteti</option>
+                                                            <option value="Sosiologiya">Sosiologiya</option>
+                                                            <option value="Şuşa Humanitar Kolleci">Şuşa Humanitar Kolleci</option>
+                                                            <option value="Technical University">Technical University</option>
+                                                            <option value="TU Clausthat">TU Clausthat</option>
+                                                            <option value="Turizm">Turizm</option>
+                                                            <option value="UFAZ">UFAZ</option>
+                                                            <option value="UNEC">UNEC</option>
+                                                            <option value="University of Art">University of Art</option>
+                                                            <option value="University of Birmingham">University of Birmingham</option>
+                                                            <option value="Xazar">Xazar</option>
                                                         </select>
                                                     </div>
                                                     <div class="form-group col-md-12">
-                                                        <input type="text" class="form-control" id="speciality" placeholder="Oxuduğu və ya bitirdiyi ixtisas">
+                                                        <input type="text" class="form-control" name="speciality" id="speciality" placeholder="Oxuduğu və ya bitirdiyi ixtisas">
                                                     </div>
                                                     <div class="form-group col-md-12 d-flex">
                                                         <label for="degree">Oxuduğu və ya bitirdiyi səviyyəsi</label>
                                                         <select id="degree" name="degree" class="form-control">
-                                                            <option value="master1">Magistr 1</option>
-                                                            <option value="master2">Magistr 2</option>
-                                                            <option value="master_graduated">Master məzun</option>
-                                                            <option value="bachelor1">Bachelor 1</option>
-                                                            <option value="bachelor2">Bachelor 2</option>
-                                                            <option value="bachelor3">Bachelor 3</option>
-                                                            <option value="bachelor4">Bachelor 4</option>
-                                                            <option value="bachelor_graduated">Bachelor məzun</option>
-                                                            <option value="attestat9">Attestat 9</option>
-                                                            <option value="attestat11">Attestat 11</option>
-                                                            <option value="class11">11ci sinif</option>
-                                                            <option value="class10">10cu sinif</option>
-                                                            <option value="class9">9cu sinif</option>
-                                                            <option value="class8">8ci sinif</option>
-                                                            <option value="class7">7ci sinif</option>
-                                                            <option value="class6">6cı sinif</option>
-                                                            <option value="class5">5 və aşağı</option>
+                                                            <option value="Magistr 1">Magistr 1</option>
+                                                            <option value="Magistr 2">Magistr 2</option>
+                                                            <option value="Master məzun">Master məzun</option>
+                                                            <option value="Bachelor 1">Bachelor 1</option>
+                                                            <option value="Bachelor 2">Bachelor 2</option>
+                                                            <option value="Bachelor 3">Bachelor 3</option>
+                                                            <option value="Bachelor 4">Bachelor 4</option>
+                                                            <option value="Bachelor məzun">Bachelor məzun</option>
+                                                            <option value="Attestat 9">Attestat 9</option>
+                                                            <option value="Attestat 11">Attestat 11</option>
+                                                            <option value="11ci sinif">11ci sinif</option>
+                                                            <option value="10cu sinif">10cu sinif</option>
+                                                            <option value="9cu sinif">9cu sinif</option>
+                                                            <option value="8ci sinif">8ci sinif</option>
+                                                            <option value="7ci sinif">7ci sinif</option>
+                                                            <option value="6cı sinif">6cı sinif</option>
+                                                            <option value="5 və aşağı">5 və aşağı</option>
                                                         </select>
                                                     </div>
                                                     <div class="form-group col-md-12 d-flex">
                                                         <label for="graduate_year" class="mr-5 col-md-4">Məzuniyyət ili</label>
                                                         <select id="graduate_year" name="graduate_year" class="form-control">
-                                                            <option value="y_2000-2014">2000-2014</option>
-                                                            <option value="y_2014">2014</option>
-                                                            <option value="y_2015">2015</option>
-                                                            <option value="y_2016">2016</option>
-                                                            <option value="y_2017">2017</option>
-                                                            <option value="y_2018">2018</option>
-                                                            <option value="y_2019">2019</option>
-                                                            <option value="y_2020">2020</option>
-                                                            <option value="y_2021">2021</option>
-                                                            <option value="y_2022">2022</option>
-                                                            <option value="y_2023">2023</option>
-                                                            <option value="y_2024">2024</option>
-                                                            <option value="y_2025">2025</option>
-                                                            <option value="y_2026">2026</option>
-                                                            <option value="y_2027">2027</option>
+                                                            <option value="2000-2014">2000-2014</option>
+                                                            <option value="2014">2014</option>
+                                                            <option value="2015">2015</option>
+                                                            <option value="2016">2016</option>
+                                                            <option value="2017">2017</option>
+                                                            <option value="2018">2018</option>
+                                                            <option value="2019">2019</option>
+                                                            <option value="2020">2020</option>
+                                                            <option value="2021">2021</option>
+                                                            <option value="2022">2022</option>
+                                                            <option value="2023">2023</option>
+                                                            <option value="2024">2024</option>
+                                                            <option value="2025">2025</option>
+                                                            <option value="2026">2026</option>
+                                                            <option value="2027">2027</option>
                                                         </select>
                                                     </div>
                                                     <div class="form-group col-md-12 d-flex">
                                                         <label for="gpa" class="mr-5 col-md-4">GPA%</label>
                                                         <select id="gpa" name="gpa"class="form-control">
-                                                            <option value="less_50"><50%</option>
-                                                            <option value="59">50-59%</option>
-                                                            <option value="69">60-69%</option>
-                                                            <option value="74">70-74%</option>
-                                                            <option value="79">75-79%</option>
-                                                            <option value="84">80-84%</option>
-                                                            <option value="89">85-89%</option>
-                                                            <option value="94">90-94%</option>
-                                                            <option value="100">95-100%</option>
+                                                            <option value="<50%"><50%</option>
+                                                            <option value="50-59%">50-59%</option>
+                                                            <option value="60-69%">60-69%</option>
+                                                            <option value="70-74%">70-74%</option>
+                                                            <option value="75-79%">75-79%</option>
+                                                            <option value="80-84%">80-84%</option>
+                                                            <option value="85-89%">85-89%</option>
+                                                            <option value="90-94%">90-94%</option>
+                                                            <option value="95-100%">95-100%</option>
                                                         </select>
                                                     </div>
                                                     <div class="form-group col-md-12 d-flex">
                                                         <label for="english_level" class="col-md-4 mr-5">Ingilis dili biliyi</label>
                                                         <select id="english_level" name="english_level" class="form-control">
-                                                            <option value="a1">A1</option>
-                                                            <option value="a1">A2</option>
-                                                            <option value="b1">B1</option>
-                                                            <option value="b2">B2</option>
-                                                            <option value="c1">C1</option>
-                                                            <option value="c2">C2</option>
+                                                            <option value="A1">A1</option>
+                                                            <option value="A2">A2</option>
+                                                            <option value="B1">B1</option>
+                                                            <option value="B2">B2</option>
+                                                            <option value="C1">C1</option>
+                                                            <option value="C2">C2</option>
                                                             <option value="0">-0</option>
                                                         </select>
                                                     </div>
                                                     <div class="form-group col-md-12 d-flex">
                                                         <label for="degree" class="col-md-4 mr-5">Alman dili biliyi</label>
                                                         <select id="deutshche_level" name="deutshche_level" class="form-control">
-                                                            <option value="deutshce_a1">A1</option>
-                                                            <option value="deutshce_a1">A2</option>
-                                                            <option value="deutshce_b1">B1</option>
-                                                            <option value="deutshce_b2">B2</option>
-                                                            <option value="deutshce_c1">C1</option>
-                                                            <option value="deutshce_c2">C2</option>
-                                                            <option value="deutshce_0">-0</option>
+                                                            <option value="A1">A1</option>
+                                                            <option value="A2">A2</option>
+                                                            <option value="B1">B1</option>
+                                                            <option value="B2">B2</option>
+                                                            <option value="C1">C1</option>
+                                                            <option value="C2">C2</option>
+                                                            <option value="0">-0</option>
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Bağlamaq</button>
-                                                    <button type="button" class="btn btn-primary">Əlavə etmək</button>
+                                                    <button type="submit" class="btn btn-primary">Əlavə etmək</button>
                                                 </div>
                                             </form>
                                         </div>

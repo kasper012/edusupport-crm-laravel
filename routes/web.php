@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,22 +25,22 @@ Route::get('/', function () {
 //     return view('about');
 // });
 
-Route::get('login', function () {
-    return view('login');
-});
+// Route::get('login', function () {
+//     return view('login');
+// });
 
-Route::get('signup', function () {
-    return view('signup');
-});
+// Route::get('signup', function () {
+//     return view('signup');
+// });
+
+Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact-submit');
+
 
 
 Route::get('sales', function () {
     return view('sales-view');
 });
 
-Route::get('sales-add', function () {
-    return view('sales-create-form');
-})->name('sales-add');
 
 
 Route::get('experts', function () {

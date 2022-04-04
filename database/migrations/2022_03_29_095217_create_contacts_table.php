@@ -25,7 +25,6 @@ class CreateContactsTable extends Migration
             $table->text('gpa');
             $table->text('english_level'); 
             $table->text('deutshche_level'); 
-            $table->text('message'); 
             $table->timestamps();
         });
     }

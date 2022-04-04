@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Contact;
 use App\Http\Requests\ContactRequest;
+use Illuminate\Support\Facades\Route;
 
 class ContactController extends Controller
 {
@@ -21,9 +22,8 @@ class ContactController extends Controller
         $contact->gpa=$gpa=$req->input('gpa');
         $contact->english_level=$english_level=$req->input('english_level');
         $contact->deutshche_level=$deutshche_level=$req->input('deutshche_level');
-        $contact->message=$message=$req->input('message');
         $contact->save();
-        return redirect()->route('contact-send', $email);
+        return view('sales-view');
     }
 
     public function allData(){
@@ -48,7 +48,6 @@ class ContactController extends Controller
         $contact->gpa=$gpa=$req->input('gpa');
         $contact->english_level=$english_level=$req->input('english_level');
         $contact->deutshche_level=$deutshche_level=$req->input('deutshche_level');
-        $contact->message=$message=$req->input('message');
         $contact->save();
         return redirect()->route('contact-all');
     }
