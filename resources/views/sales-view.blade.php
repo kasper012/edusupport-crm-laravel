@@ -242,6 +242,7 @@
                                         <thead class="thead-dark">
                                             <tr>
                                                 <th>Ad və soyad</th>
+                                                <th>Tarix</th>
                                                 <th>Əlaqə nömrəsi</th>
                                                 <th>Email</th>
                                                 <th>Hansı ölkədə təhsil almaq istəyir</th>
@@ -261,6 +262,7 @@
                                             @foreach($data as $el)
                                             <tr>
                                                 <td>{{ $el->name }}</td>
+                                                <td>{{ $el->created_at->format('d.m.Y H:i')}}</td>
                                                 <td>{{ $el->phone }}</td>
                                                 <td>{{ $el->email }}</td>
                                                 <td>{{ $el->country }}</td>
@@ -271,10 +273,11 @@
                                                 <td>{{ $el->gpa }}</td>
                                                 <td>{{ $el->english_level }}</td>
                                                 <td>{{ $el->deutshche_level }}</td>
+
                                                 <td>
-                                                    <button type="button" class="btn btn-primary py-1 px-3" data-toggle="modal" data-target="#exampleModalCenter" alt="Redaktə etmək">
+                                                    <a class="btn btn-primary py-1 px-3" href="{{ route('sales-update-page', $el->id)}}" alt="Redaktə etmək">
                                                         <i class="far fa-edit"></i>
-                                                    </button>
+                                                    </a>
                                                 </td>
                                                 <td>
                                                     <button type="button" class="btn btn-success py-1 px-3" data-toggle="modal" data-target="#exampleModalCenter" alt="Sorğunu göndərmək">

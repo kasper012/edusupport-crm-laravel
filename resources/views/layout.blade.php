@@ -33,7 +33,6 @@
         fixedColumns:   {
             left: 1,
         },
-        searchBuilder: true,
     });
 } );
 </script>

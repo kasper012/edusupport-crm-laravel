@@ -16,6 +16,13 @@ use App\Http\Requests\ContactRequest;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Route::get('experts', function () {
+//     return view('expert-view');
+// });
+
+// Route::get('expert', function () {
+//     return view('expert');
+// });
 
 Route::get('/', function () {
     return view('login');
@@ -27,14 +34,9 @@ Route::post('sales', [ContactController::class, 'submit'])->name('sales-submit')
 Route::get('sales', [ContactController::class, 'allData'])->name('sales-view');
 
 
-Route::get('experts', function () {
-    return view('expert-view');
-});
 
-Route::get('expert', function () {
-    return view('expert');
-});
 
-Route::get('messages', function () {
-    return view('messages');
-});
+Route::get('/sales/update/{id}', [ContactController::class, 'UpdatePage'])->name('sales-update-page');
+Route::post('/sales/update/{id}', [ContactController::class, 'Update'])->name('sales-update-submit');
+
+
