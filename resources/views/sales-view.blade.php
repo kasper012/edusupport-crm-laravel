@@ -251,6 +251,8 @@
                                                 <th>GPA%</th>
                                                 <th>Ingilis dili biliyi</th>
                                                 <th>Alman dili biliyi</th>
+                                                <th></th>
+                                                <th></th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -267,6 +269,16 @@
                                                 <td>{{ $el->gpa }}</td>
                                                 <td>{{ $el->english_level }}</td>
                                                 <td>{{ $el->deutshche_level }}</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-primary py-1 px-1" data-toggle="modal" data-target="#exampleModalCenter">
+                                                        Redaktə
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger py-1 px-5" data-toggle="modal" data-target="#exampleModalCenter">
+                                                        Sorğu
+                                                    </button>
+                                                </td>
                                             </tr>
                                             @endforeach
                                             
@@ -309,6 +321,7 @@
                                                 <td>{{ $el->gpa }}</td>
                                                 <td>{{ $el->english_level }}</td>
                                                 <td>{{ $el->deutshche_level }}</td>
+                                                <td></td>
                                             </tr>
                                             @endforeach
                                             

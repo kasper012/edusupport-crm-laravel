@@ -12,9 +12,8 @@
     {{-- <link rel="stylesheet" href="../../assets/css/table.css"> --}}    
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.6.0/dt-1.11.5/b-2.2.2/cr-1.5.5/fh-3.2.2/r-2.2.9/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/datatables.css"/>
- 
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jq-3.6.0/dt-1.11.5/b-2.2.2/cr-1.5.5/fh-3.2.2/r-2.2.9/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/datatables.js"></script>
-    
+    <script src="https://cdn.datatables.net/fixedcolumns/4.0.2/js/dataTables.fixedColumns.min.js"></script>
     
 </head>
 <body>
@@ -23,10 +22,14 @@
 <script> 
     $(document).ready( function () {
     $('#table_id').DataTable({
-        paging: true,
         scrollY: 480,
+        scrollX: true,
+        paging: true,
         "language": {
             "url": "../../assets/lang/az/datatable-locale.json"
+        },
+        fixedColumns:   {
+            left: 1,
         }
     });
 } );
