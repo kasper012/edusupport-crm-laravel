@@ -31,7 +31,10 @@ Route::get('experts', function () {
     return view('expert-view');
 });
 
-Route::get('review', function () {
+Route::get('expert', function () {
     return view('expert');
 });
 
+Route::get('messages', function () {
+    return view('messages');
+});

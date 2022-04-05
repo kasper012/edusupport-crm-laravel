@@ -201,7 +201,7 @@
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Bağlamaq</button>
-                                                <button type="submit" class="btn btn-primary">Əlavə etmək</button>
+                                                <button type="submit" class="btn btn-success">Əlavə etmək</button>
                                             </div>
                                         </form>
                                     </div>
@@ -237,7 +237,7 @@
                                     <p class="py-3 mb-0">
                                         Все клиенты без сортировки
                                     </p>
-                                    <table class="table table-responsive-sm">
+                                    <table class="table table-responsive-sm" id="table_id">
                                         <thead class="thead-dark">
                                             <tr>
                                                 <th>Ad və soyad</th>
