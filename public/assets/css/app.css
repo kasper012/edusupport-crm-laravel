@@ -29,3 +29,11 @@ td {
 th:first-of-type {
   z-index: 100;
 }
+
+.dtfc-right-top-blocker {
+  display: none !important;
+}
+
+button i {
+  color: white;
+}

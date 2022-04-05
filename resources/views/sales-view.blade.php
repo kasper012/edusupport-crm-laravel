@@ -4,16 +4,17 @@
 @endsection
 
 @section('main_content')
+
     <main>
         <div class="container-fluid mt-5 px-5">
             <div class="row mb-3">
                 <h3 class="w-100 text-center mb-5 pl-270 col-10 ">
-                    Добро пожаловать, сотрудник отдела продаж
+                    Добро пожаловать, сотрудник отдела продаж 
                 </h3>
                 <div class="col-2 mb-5">
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-success py-2 px-3" data-toggle="modal" data-target="#exampleModalCenter">
-                        Yeni müştəri əlavə etmək
+                        Yeni müştəri əlavə etmək 
                     </button>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -253,6 +254,7 @@
                                                 <th>Alman dili biliyi</th>
                                                 <th></th>
                                                 <th></th>
+                                                <th></th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -270,13 +272,18 @@
                                                 <td>{{ $el->english_level }}</td>
                                                 <td>{{ $el->deutshche_level }}</td>
                                                 <td>
-                                                    <button type="button" class="btn btn-primary py-1 px-1" data-toggle="modal" data-target="#exampleModalCenter">
-                                                        Redaktə
+                                                    <button type="button" class="btn btn-primary py-1 px-3" data-toggle="modal" data-target="#exampleModalCenter" alt="Redaktə etmək">
+                                                        <i class="far fa-edit"></i>
                                                     </button>
                                                 </td>
                                                 <td>
-                                                    <button type="button" class="btn btn-danger py-1 px-5" data-toggle="modal" data-target="#exampleModalCenter">
-                                                        Sorğu
+                                                    <button type="button" class="btn btn-success py-1 px-3" data-toggle="modal" data-target="#exampleModalCenter" alt="Sorğunu göndərmək">
+                                                        <i class="far fa-paper-plane"></i>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger py-1 px-3" data-toggle="modal" data-target="#exampleModalCenter" alt="Silmək">
+                                                        <i class="fas fa-trash-alt"></i>
                                                     </button>
                                                 </td>
                                             </tr>

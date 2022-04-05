@@ -23,10 +23,18 @@ th{
     border-radius: 0.25rem;
 }
 
- td {
+td {
     background-color: white !important;
+
 }
 th:first-of-type {
     z-index: 100;
 }
 
+.dtfc-right-top-blocker {
+    display: none !important;
+}
+
+button i{
+    color: white
+}
