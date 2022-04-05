@@ -40,3 +40,4 @@ Route::get('/sales/update/{id}', [ContactController::class, 'UpdatePage'])->name
 Route::post('/sales/update/{id}', [ContactController::class, 'Update'])->name('sales-update-submit');
 
 
+Route::get('/sales/delete/{id}', [ContactController::class, 'DeleteContact'])->name('sales-delete');

@@ -60,13 +60,13 @@ class ContactController extends Controller
         $contact->english_level=$english_level=$req->input('english_level');
         $contact->deutshche_level=$deutshche_level=$req->input('deutshche_level');
         $contact->save();
-        return redirect()->route('login');
+        return redirect()->route('sales-submit');
     }
 
 
     public function DeleteContact($id){
         $contact = Contact::find($id);
         $contact->delete();
-        return redirect()->route('contact-all');
+        return redirect()->route('sales-submit');
     }
 }

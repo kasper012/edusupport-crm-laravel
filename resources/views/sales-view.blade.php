@@ -285,9 +285,9 @@
                                                     </button>
                                                 </td>
                                                 <td>
-                                                    <button type="button" class="btn btn-danger py-1 px-3" data-toggle="modal" data-target="#exampleModalCenter" alt="Silmək">
+                                                    <a href="{{ route('sales-delete', $el->id)}}" class="btn btn-danger py-1 px-3" alt="Silmək">
                                                         <i class="fas fa-trash-alt"></i>
-                                                    </button>
+                                                    </a>
                                                 </td>
                                             </tr>
                                             @endforeach
