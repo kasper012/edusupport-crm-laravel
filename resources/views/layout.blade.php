@@ -15,12 +15,13 @@
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jq-3.6.0/dt-1.11.5/b-2.2.2/cr-1.5.5/fh-3.2.2/r-2.2.9/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/datatables.js"></script>
     <script src="https://cdn.datatables.net/fixedcolumns/4.0.2/js/dataTables.fixedColumns.min.js"></script>
     
+    
 </head>
 <body>
     @include('inc/header')
 @yield('main_content')
 <script> 
-    $(document).ready( function () {
+    $(document).ready( function () {https://cdn.datatables.net/fixedcolumns/4.0.2/js/dataTables.fixedColumns.min.js
     $('#table_id').DataTable({
         scrollY: 480,
         scrollX: true,
@@ -30,7 +31,8 @@
         },
         fixedColumns:   {
             left: 1,
-        }
+        },
+        searchBuilder: true,
     });
 } );
 </script>

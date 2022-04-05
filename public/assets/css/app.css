@@ -25,3 +25,7 @@ th {
 td {
   background-color: white !important;
 }
+
+th:first-of-type {
+  z-index: 100;
+}
