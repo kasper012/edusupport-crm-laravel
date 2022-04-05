@@ -11,37 +11,24 @@
     <link rel="stylesheet" href="../../assets/css/app.css">
     {{-- <link rel="stylesheet" href="../../assets/css/table.css"> --}}    
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.6.0/dt-1.11.5/b-2.2.2/cr-1.5.5/fh-3.2.2/r-2.2.9/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/datatables.css"/>
+ 
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jq-3.6.0/dt-1.11.5/b-2.2.2/cr-1.5.5/fh-3.2.2/r-2.2.9/rr-1.2.8/sc-2.0.5/sb-1.3.2/sp-2.0.0/datatables.js"></script>
     
-    {{-- <style>
-        table.dataTable thead .sorting {
-            background-image: url("../images/sort_both.png")
-        }
-
-        table.dataTable thead .sorting_asc {
-            background-image: url("../images/sort_asc.png") !important
-        }
-
-        table.dataTable thead .sorting_desc {
-            background-image: url("../images/sort_desc.png") !important
-        }
-
-        table.dataTable thead .sorting_asc_disabled {
-            background-image: url("../images/sort_asc_disabled.png")
-        }
-
-        table.dataTable thead .sorting_desc_disabled {
-            background-image: url("../images/sort_desc_disabled.png")
-        }
-    </style> --}}
+    
 </head>
 <body>
     @include('inc/header')
 @yield('main_content')
 <script> 
     $(document).ready( function () {
-    $('#table_id').DataTable();
+    $('#table_id').DataTable({
+        paging: true,
+        scrollY: 480,
+        "language": {
+            "url": "../../assets/lang/az/datatable-locale.json"
+        }
+    });
 } );
 </script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

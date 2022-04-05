@@ -1,0 +1,23 @@
+
+
+{
+	"sProcessing":   "Lütfən gözləyin...",
+	"sLengthMenu":   "_MENU_ tələbə göstərmək",
+	"sZeroRecords":  "Tələbə yoxdur",
+	"sInfo":         "_START_-dan _END_-a(-ə) kimi. Ümumi miqdar: _TOTAL_ ",
+	"sInfoEmpty":    "0-dan 0-a kimi. Ümumi miqdar: 0",
+	"sInfoFiltered": "( _MAX_ yazıdan filtrlənib )",
+	"sInfoPostFix":  "",
+	"sSearch":       "Axtarış:",
+	"sUrl":          "",
+	"oPaginate": {
+		"sFirst": "Birinci",
+		"sPrevious": "Əvvəlki",
+		"sNext": "Növbəti",
+		"sLast": "Axırımcı"
+	},
+	"oAria": {
+		"sSortAscending":  ": активировать для сортировки столбца по возрастанию",
+		"sSortDescending": ": активировать для сортировки столбцов по убыванию"
+	}
+}

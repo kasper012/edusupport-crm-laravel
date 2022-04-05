@@ -215,7 +215,7 @@
                         </div>
                     </div>
             </div>
-                <div class="col-12 mt-5">
+                <div class="col-12">
                     <div class="row">
                         <div class="col-12">
                             <div class="list-group flex-row" id="list-tab" role="tablist">
