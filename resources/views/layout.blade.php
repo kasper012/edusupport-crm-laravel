@@ -22,7 +22,7 @@
     @include('inc/header')
 @yield('main_content')
 <script> 
-    $(document).ready( function () {https://cdn.datatables.net/fixedcolumns/4.0.2/js/dataTables.fixedColumns.min.js
+    $(document).ready( function () {
     $('#table_id').DataTable({
         scrollY: 480,
         scrollX: true,
